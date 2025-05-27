@@ -51,7 +51,7 @@ export default function PokemonPage({ params }: Params) {
                     pokemon ?
                         <PokemonComponent pokemon={pokemon}></PokemonComponent> :
                         <Image className='img-fluid mx-auto d-block rounded'
-                            src="https://cdn.dribbble.com/users/2805817/screenshots/13206178/media/6bd36939f8a01d4480cb1e08147e20f3.png" /> :
+                            src="https://cdn.dribbble.com/users/2805817/screenshots/13206178/media/6bd36939f8a01d4480cb1e08147e20f3.png" alt="Pokemon"/> :
                     <Container>
                         <Row className="justify-content-md-center p-2">
                             <Spinner className='p-2' animation='border' role='status' />
