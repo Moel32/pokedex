@@ -1,4 +1,5 @@
 'use client'
+import React from 'react';
 import PokemonsComp from "@/components/pokemonsComp";
 import PokeNavBar from "@/components/pokeNavBarComp";
 import PokemonCard from "@/model/pokemonCard";
